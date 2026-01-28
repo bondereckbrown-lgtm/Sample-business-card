@@ -11,8 +11,25 @@ img{
 }
 body {
     
-    
+    margin: 0;
     background-color: whitesmoke;
+    
+
+}
+#hero {
+
+    background-image: url("images/Hilo.webp");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+#SLogo  {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 0;
+    border-radius: 0%;
     
 }
 
@@ -21,7 +38,7 @@ body {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 1px;
     display: flex;
     background: lightgrey;
     padding: 20px;
@@ -29,7 +46,6 @@ body {
     border-bottom: 5px solid purple;
     border-radius: 30px;
     justify-content: space-around;
-
 
 }
 .info{
@@ -41,6 +57,11 @@ body {
 }
 .P-1{
     text-align: center;
+    font-style: italic;
+    color: blanchedalmond;
+}
+.meow{
+    color: red;
 }
 .main {
 
@@ -69,6 +90,7 @@ body {
 .btn {
     
     margin-top: 5px;
+    margin-bottom: 5px;
     margin-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -85,6 +107,7 @@ body {
 .lcky {
 
     margin-top: 5px;
+    margin-bottom: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 12px;
@@ -93,6 +116,11 @@ body {
     border-radius: 7px;
     border: none;
     background-color: #dfe1e5;
-    
-    
+}
+
+#hbtm {
+
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -3px 0px 5px red;
 }
