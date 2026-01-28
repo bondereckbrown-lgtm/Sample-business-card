@@ -1,0 +1,98 @@
+
+img{
+    
+    width: 150px;
+    height: 150px;
+    
+    border: 5px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 500px;
+}
+body {
+    
+    
+    background-color: whitesmoke;
+    
+}
+
+.card{
+    
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    background: lightgrey;
+    padding: 20px;
+    border: 1px dotted black;
+    border-bottom: 5px solid purple;
+    border-radius: 30px;
+    justify-content: space-around;
+
+
+}
+.info{
+    border: 1px dotted black;
+    border-bottom: 5px solid purple;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+.P-1{
+    text-align: center;
+}
+.main {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-input{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    border: 5px;
+    border-color: #dfe1e5;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
+.btn {
+    
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    border-radius: 7px;
+    border: none;
+    background-color: #dfe1e5;
+    
+   
+}
+
+.lcky {
+
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    border-radius: 7px;
+    border: none;
+    background-color: #dfe1e5;
+    
+    
+}
